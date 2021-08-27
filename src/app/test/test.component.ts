@@ -19,8 +19,10 @@ export class TestComponent implements OnInit {
     //  public multistyle= {
     //    color:"red",
     //    fontstyle:"italic"
-    public name="";
-
+    // public name="";
+    // public displayname=false;
+    // public color="green";
+      public colors= ["red","yellow","green","white"];
     constructor() {
       console.log('Hi from constrcture');
 
