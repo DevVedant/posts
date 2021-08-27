@@ -42,10 +42,16 @@
 </div> -->
 <!-- ---------ngFor--------------- -->
 
-<div *ngFor="let color of colors; first as f">
+<!-- <div *ngFor="let color of colors; first as f">
 <h2>{{f}} {{color}} </h2>
-</div>
+</div> -->
 
+<h2>{{name | uppercase}}</h2>
+<h2>{{name | lowercase}}</h2>
+<h2>{{name | titlecase}}</h2>
+<h2>{{person | json}}</h2>
+<h2>{{message | slice:3}} </h2>
+<h2>{{5.689 |number:'2.4-4'}}</h2>
 
 </div>
 
